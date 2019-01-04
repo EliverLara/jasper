@@ -70,7 +70,7 @@ electron.app.on('will-finish-launching', () => {
 });
 
 electron.app.on('ready', function() {
-  const config = {width: 1280, height: 900, title: 'Jasper'};
+  const config = {width: 1280, height: 900, title: 'Jasper', autoHideMenuBar: true};
   if (Platform.isLinux()) config.icon = `${__dirname}/Electron/image/icon.png`;
   global.mainWindow = mainWindow = new electron.BrowserWindow(config);
 

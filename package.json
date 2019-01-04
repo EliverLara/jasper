@@ -11,7 +11,7 @@
   },
   "scripts": {
     "copy-icon": "cp ./misc/logo/jasper-dev.icns ./node_modules/electron/dist/Electron.app/Contents/Resources/electron.icns",
-    "electron": "npm run copy-icon && ./node_modules/.bin/electron -r babel-register ./",
+    "electron": "./node_modules/.bin/electron -r babel-register ./",
     "build": "./script/mac/build.sh",
     "electron-win": "./node_modules/.bin/electron -r babel-register ./",
     "build-win": "./script/win/build.sh",
@@ -19,26 +19,26 @@
     "build-linux": "./script/linux/build.sh"
   },
   "dependencies": {
-    "moment": "2.22.2",
-    "react": "16.4.2",
-    "react-dom": "16.4.2",
-    "sqlite3": "4.0.2",
-    "fs-extra": "7.0.0",
     "color-logger": "0.0.6",
-    "semver": "5.5.1",
-    "node-zip": "1.1.1",
     "diff": "3.5.0",
     "escape-html": "1.0.3",
-    "uuid": "3.3.2",
-    "request": "2.88.0"
+    "fs-extra": "7.0.0",
+    "moment": "2.22.2",
+    "node-zip": "1.1.1",
+    "react": "16.4.2",
+    "react-dom": "16.4.2",
+    "request": "2.88.0",
+    "semver": "5.5.1",
+    "sqlite3": "^4.0.4",
+    "uuid": "3.3.2"
   },
   "devDependencies": {
     "babel-cli": "6.26.0",
     "babel-plugin-transform-es2015-modules-commonjs": "6.26.2",
     "babel-preset-react": "6.24.1",
     "babel-register": "6.26.0",
-    "electron": "2.0.8",
-    "electron-packager": "12.1.1",
+    "electron": "3.0.13",
+    "electron-packager": "^12.2.0",
     "esdoc": "latest",
     "esdoc-jsx-plugin": "latest",
     "esdoc-standard-plugin": "latest"

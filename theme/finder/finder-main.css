@@ -17,16 +17,16 @@
 
 /* customize */
 
-.issues-pane .issues .list-group .issue-list-item .milestone-and-labels {
+/* .issues-pane .issues .list-group .issue-list-item .milestone-and-labels {
   display: none;
-}
+} */
 
 /**
   I deleted labels in issues,
   but you can revert this to comment out following.
 **/
 
-/*
+
 .issues-pane .issues .list-group .issue-list-item {
   min-height: 8.5em !important;
 }
@@ -36,7 +36,7 @@
   max-height: 22px;
   overflow-y: hidden;
 }
-*/
+
 
 /* streams pane */
 .streams {
